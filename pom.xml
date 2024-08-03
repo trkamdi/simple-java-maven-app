@@ -50,7 +50,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.5.0</version>
+        <version>3.13.0</version>
         <executions>
           <execution>
             <id>enforce-maven</id>
@@ -60,10 +60,10 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>[3.8.7,)</version>
+                  <version>[3.9.1,)</version>
                 </requireMavenVersion>
                 <requireJavaVersion>
-                  <version>[17,)</version>
+                  <version>[21,)</version>
                 </requireJavaVersion>
               </rules>
             </configuration>
